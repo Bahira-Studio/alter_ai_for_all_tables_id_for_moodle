@@ -4,9 +4,9 @@
 //ini_set('display_errors', '1');
 
 define('dbhost', 'localhost');
-define('dbname', 'akunlms_smkmaarif2Ajb');
-define('dbuser', 'akunlms_smkmaarif2Ajb');
-define('dbpass', '55nkh911Px');
+define('dbname', 'your_database_name');
+define('dbuser', 'your_database_user');
+define('dbpass', 'your_database_password');
 
 function koneksi() {
 	$mysqli = new mysqli(dbhost, dbuser, dbpass, dbname);
